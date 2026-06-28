@@ -7,61 +7,61 @@ const MENU = {
     "c1": {
         "name": "🌅 Завтраки",
         "items": {
-            "i1": {"name": "Утренний бургер", "price": 580, "desc": "Бриошь, курица су-вид, цезарь", "photo": "https://i.imgur.com/PLACEHOLDER1.jpg"},
-            "i2": {"name": "Сырники", "price": 480, "desc": "Со сметаной и карамелью", "photo": "https://i.imgur.com/PLACEHOLDER2.jpg"},
-            "i3": {"name": "Гречка с яйцом", "price": 465, "desc": "Гречка, яйцо пашот, авокадо", "photo": "https://i.imgur.com/PLACEHOLDER3.jpg"},
-            "i4": {"name": "Вареники", "price": 480, "desc": "С вишневым соусом", "photo": "https://i.imgur.com/PLACEHOLDER4.jpg"},
-            "i5": {"name": "Смузи-боул", "price": 490, "desc": "Голубика, банан, кокос", "photo": "https://i.imgur.com/PLACEHOLDER5.jpg"},
-            "i6": {"name": "Завтрак 2 яйца", "price": 385, "desc": "Яйца, салат, тост", "photo": "https://i.imgur.com/PLACEHOLDER6.jpg"},
-            "i7": {"name": "Круассан с курицей", "price": 600, "desc": "Круассан, курица, цезарь", "photo": "https://i.imgur.com/PLACEHOLDER7.jpg"},
-            "i8": {"name": "Овсянка", "price": 380, "desc": "С бананом и карамелью", "photo": "https://i.imgur.com/PLACEHOLDER8.jpg"}
+            "i1": {"name": "Утренний бургер", "price": 580, "desc": "Бриошь, курица су-вид, цезарь", "photo": "https://picsum.photos/400/200?random=1"},
+            "i2": {"name": "Сырники", "price": 480, "desc": "Со сметаной и карамелью", "photo": "https://picsum.photos/400/200?random=2"},
+            "i3": {"name": "Гречка с яйцом", "price": 465, "desc": "Гречка, яйцо пашот, авокадо", "photo": "https://picsum.photos/400/200?random=3"},
+            "i4": {"name": "Вареники", "price": 480, "desc": "С вишневым соусом", "photo": "https://picsum.photos/400/200?random=4"},
+            "i5": {"name": "Смузи-боул", "price": 490, "desc": "Голубика, банан, кокос", "photo": "https://picsum.photos/400/200?random=5"},
+            "i6": {"name": "Завтрак 2 яйца", "price": 385, "desc": "Яйца, салат, тост", "photo": "https://picsum.photos/400/200?random=6"},
+            "i7": {"name": "Круассан с курицей", "price": 600, "desc": "Круассан, курица, цезарь", "photo": "https://picsum.photos/400/200?random=7"},
+            "i8": {"name": "Овсянка", "price": 380, "desc": "С бананом и карамелью", "photo": "https://picsum.photos/400/200?random=8"}
         }
     },
     "c2": {
         "name": "🔥 Горячее",
         "items": {
-            "i9": {"name": "Птитим с креветкой", "price": 520, "desc": "Птитим, креветки, песто", "photo": "https://i.imgur.com/PLACEHOLDER9.jpg"},
-            "i10": {"name": "Орзо с говядиной", "price": 570, "desc": "Орзо, говядина, грибы", "photo": "https://i.imgur.com/PLACEHOLDER10.jpg"},
-            "i11": {"name": "Бифштекс", "price": 620, "desc": "Индейка, коул слоу", "photo": "https://i.imgur.com/PLACEHOLDER11.jpg"},
-            "i12": {"name": "Роти с креветкой", "price": 590, "desc": "Лепешка, креветки, авокадо", "photo": "https://i.imgur.com/PLACEHOLDER12.jpg"},
-            "i13": {"name": "Курица карри", "price": 580, "desc": "Курица, рис, карри", "photo": "https://i.imgur.com/PLACEHOLDER13.jpg"}
+            "i9": {"name": "Птитим с креветкой", "price": 520, "desc": "Птитим, креветки, песто", "photo": "https://picsum.photos/400/200?random=9"},
+            "i10": {"name": "Орзо с говядиной", "price": 570, "desc": "Орзо, говядина, грибы", "photo": "https://picsum.photos/400/200?random=10"},
+            "i11": {"name": "Бифштекс", "price": 620, "desc": "Индейка, коул слоу", "photo": "https://picsum.photos/400/200?random=11"},
+            "i12": {"name": "Роти с креветкой", "price": 590, "desc": "Лепешка, креветки, авокадо", "photo": "https://picsum.photos/400/200?random=12"},
+            "i13": {"name": "Курица карри", "price": 580, "desc": "Курица, рис, карри", "photo": "https://picsum.photos/400/200?random=13"}
         }
     },
     "c3": {
         "name": "🍳 Бранч",
         "items": {
-            "i14": {"name": "Бриошь с креветкой", "price": 540, "desc": "Бриошь, креветки, скрембл", "photo": "https://i.imgur.com/PLACEHOLDER14.jpg"},
-            "i15": {"name": "Бриошь с лососем", "price": 630, "desc": "Бриошь, лосось, пашот", "photo": "https://i.imgur.com/PLACEHOLDER15.jpg"},
-            "i16": {"name": "Боул завтрак", "price": 380, "desc": "Скрэмбл, авокадо, зелень", "photo": "https://i.imgur.com/PLACEHOLDER16.jpg"},
-            "i17": {"name": "Авокадо тост", "price": 420, "desc": "Авокадо, томаты, хлеб", "photo": "https://i.imgur.com/PLACEHOLDER17.jpg"}
+            "i14": {"name": "Бриошь с креветкой", "price": 540, "desc": "Бриошь, креветки, скрембл", "photo": "https://picsum.photos/400/200?random14"},
+            "i15": {"name": "Бриошь с лососем", "price": 630, "desc": "Бриошь, лосось, пашот", "photo": "https://picsum.photos/400/200?random=15"},
+            "i16": {"name": "Боул завтрак", "price": 380, "desc": "Скрэмбл, авокадо, зелень", "photo": "https://picsum.photos/400/200?random=16"},
+            "i17": {"name": "Авокадо тост", "price": 420, "desc": "Авокадо, томаты, хлеб", "photo": "https://picsum.photos/400/200?random=17"}
         }
     },
     "c4": {
         "name": "🥗 Боулы",
         "items": {
-            "i18": {"name": "Боул с говядиной", "price": 590, "desc": "Рис, говядина, унаги", "photo": "https://i.imgur.com/PLACEHOLDER18.jpg"},
-            "i19": {"name": "Боул с лососем", "price": 690, "desc": "Лосось, рис, чука", "photo": "https://i.imgur.com/PLACEHOLDER19.jpg"},
-            "i20": {"name": "Боул с креветкой", "price": 550, "desc": "Креветка, киноа, авокадо", "photo": "https://i.imgur.com/PLACEHOLDER20.jpg"}
+            "i18": {"name": "Боул с говядиной", "price": 590, "desc": "Рис, говядина, унаги", "photo": "https://picsum.photos/400/200?random=18"},
+            "i19": {"name": "Боул с лососем", "price": 690, "desc": "Лосось, рис, чука", "photo": "https://picsum.photos/400/200?random=19"},
+            "i20": {"name": "Боул с креветкой", "price": 550, "desc": "Креветка, киноа, авокадо", "photo": "https://picsum.photos/400/200?random=20"}
         }
     },
     "c5": {
         "name": "🍔 Бургеры",
         "items": {
-            "i21": {"name": "Бургер индейка", "price": 650, "desc": "Индейка, бриошь, чеддер", "photo": "https://i.imgur.com/PLACEHOLDER21.jpg"},
-            "i22": {"name": "Бургер говядина", "price": 650, "desc": "Говядина, бриошь, барбекю", "photo": "https://i.imgur.com/PLACEHOLDER22.jpg"}
+            "i21": {"name": "Бургер индейка", "price": 650, "desc": "Индейка, бриошь, чеддер", "photo": "https://picsum.photos/400/200?random=21"},
+            "i22": {"name": "Бургер говядина", "price": 650, "desc": "Говядина, бриошь, барбекю", "photo": "https://picsum.photos/400/200?random=22"}
         }
     },
     "c6": {
         "name": "👶 Детское",
         "items": {
-            "i23": {"name": "Блинчики", "price": 220, "desc": "Со сгущенкой или сметаной", "photo": "https://i.imgur.com/PLACEHOLDER23.jpg"},
-            "i24": {"name": "Пельмени", "price": 310, "desc": "Цветные пельмени", "photo": "https://i.imgur.com/PLACEHOLDER24.jpg"}
+            "i23": {"name": "Блинчики", "price": 220, "desc": "Со сгущенкой или сметаной", "photo": "https://picsum.photos/400/200?random=23"},
+            "i24": {"name": "Пельмени", "price": 310, "desc": "Цветные пельмени", "photo": "https://picsum.photos/400/200?random=24"}
         }
     },
     "c7": {
         "name": "🍲 Супы",
         "items": {
-            "i25": {"name": "Окрошка", "price": 450, "desc": "На йогурте с курицей", "photo": "https://i.imgur.com/PLACEHOLDER25.jpg"}
+            "i25": {"name": "Окрошка", "price": 450, "desc": "На йогурте с курицей", "photo": "https://picsum.photos/400/200?random=25"}
         }
     }
 };
