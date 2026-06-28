@@ -2,66 +2,66 @@
 const tg = window.Telegram.WebApp;
 tg.expand();
 
-// Меню (дублируем из bot.py)
+// Меню (без фото-заглушек)
 const MENU = {
     "c1": {
         "name": "🌅 Завтраки",
         "items": {
-            "i1": {"name": "Утренний бургер", "price": 580, "desc": "Бриошь, курица су-вид, цезарь", "photo": "https://picsum.photos/400/200?random=1"},
-            "i2": {"name": "Сырники", "price": 480, "desc": "Со сметаной и карамелью", "photo": "https://picsum.photos/400/200?random=2"},
-            "i3": {"name": "Гречка с яйцом", "price": 465, "desc": "Гречка, яйцо пашот, авокадо", "photo": "https://picsum.photos/400/200?random=3"},
-            "i4": {"name": "Вареники", "price": 480, "desc": "С вишневым соусом", "photo": "https://picsum.photos/400/200?random=4"},
-            "i5": {"name": "Смузи-боул", "price": 490, "desc": "Голубика, банан, кокос", "photo": "https://picsum.photos/400/200?random=5"},
-            "i6": {"name": "Завтрак 2 яйца", "price": 385, "desc": "Яйца, салат, тост", "photo": "https://picsum.photos/400/200?random=6"},
-            "i7": {"name": "Круассан с курицей", "price": 600, "desc": "Круассан, курица, цезарь", "photo": "https://picsum.photos/400/200?random=7"},
-            "i8": {"name": "Овсянка", "price": 380, "desc": "С бананом и карамелью", "photo": "https://picsum.photos/400/200?random=8"}
+            "i1": {"name": "Утренний бургер", "price": 580, "desc": "Бриошь, курица су-вид, цезарь", "icon": "🍔"},
+            "i2": {"name": "Сырники", "price": 480, "desc": "Со сметаной и карамелью", "icon": "🥞"},
+            "i3": {"name": "Гречка с яйцом", "price": 465, "desc": "Гречка, яйцо пашот, авокадо", "icon": "🥣"},
+            "i4": {"name": "Вареники", "price": 480, "desc": "С вишневым соусом", "icon": "🥟"},
+            "i5": {"name": "Смузи-боул", "price": 490, "desc": "Голубика, банан, кокос", "icon": "🥣"},
+            "i6": {"name": "Завтрак 2 яйца", "price": 385, "desc": "Яйца, салат, тост", "icon": "🍳"},
+            "i7": {"name": "Круассан с курицей", "price": 600, "desc": "Круассан, курица, цезарь", "icon": "🥐"},
+            "i8": {"name": "Овсянка", "price": 380, "desc": "С бананом и карамелью", "icon": "🥣"}
         }
     },
     "c2": {
         "name": "🔥 Горячее",
         "items": {
-            "i9": {"name": "Птитим с креветкой", "price": 520, "desc": "Птитим, креветки, песто", "photo": "https://picsum.photos/400/200?random=9"},
-            "i10": {"name": "Орзо с говядиной", "price": 570, "desc": "Орзо, говядина, грибы", "photo": "https://picsum.photos/400/200?random=10"},
-            "i11": {"name": "Бифштекс", "price": 620, "desc": "Индейка, коул слоу", "photo": "https://picsum.photos/400/200?random=11"},
-            "i12": {"name": "Роти с креветкой", "price": 590, "desc": "Лепешка, креветки, авокадо", "photo": "https://picsum.photos/400/200?random=12"},
-            "i13": {"name": "Курица карри", "price": 580, "desc": "Курица, рис, карри", "photo": "https://picsum.photos/400/200?random=13"}
+            "i9": {"name": "Птитим с креветкой", "price": 520, "desc": "Птитим, креветки, песто", "icon": "🍤"},
+            "i10": {"name": "Орзо с говядиной", "price": 570, "desc": "Орзо, говядина, грибы", "icon": "🍝"},
+            "i11": {"name": "Бифштекс", "price": 620, "desc": "Индейка, коул слоу", "icon": "🥩"},
+            "i12": {"name": "Роти с креветкой", "price": 590, "desc": "Лепешка, креветки, авокадо", "icon": "🫓"},
+            "i13": {"name": "Курица карри", "price": 580, "desc": "Курица, рис, карри", "icon": "🍛"}
         }
     },
     "c3": {
         "name": "🍳 Бранч",
         "items": {
-            "i14": {"name": "Бриошь с креветкой", "price": 540, "desc": "Бриошь, креветки, скрембл", "photo": "https://picsum.photos/400/200?random14"},
-            "i15": {"name": "Бриошь с лососем", "price": 630, "desc": "Бриошь, лосось, пашот", "photo": "https://picsum.photos/400/200?random=15"},
-            "i16": {"name": "Боул завтрак", "price": 380, "desc": "Скрэмбл, авокадо, зелень", "photo": "https://picsum.photos/400/200?random=16"},
-            "i17": {"name": "Авокадо тост", "price": 420, "desc": "Авокадо, томаты, хлеб", "photo": "https://picsum.photos/400/200?random=17"}
+            "i14": {"name": "Бриошь с креветкой", "price": 540, "desc": "Бриошь, креветки, скрембл", "icon": "🍤"},
+            "i15": {"name": "Бриошь с лососем", "price": 630, "desc": "Бриошь, лосось, пашот", "icon": "🐟"},
+            "i16": {"name": "Боул завтрак", "price": 380, "desc": "Скрэмбл, авокадо, зелень", "icon": "🥗"},
+            "i17": {"name": "Авокадо тост", "price": 420, "desc": "Авокадо, томаты, хлеб", "icon": "🥑"}
         }
     },
     "c4": {
         "name": "🥗 Боулы",
         "items": {
-            "i18": {"name": "Боул с говядиной", "price": 590, "desc": "Рис, говядина, унаги", "photo": "https://picsum.photos/400/200?random=18"},
-            "i19": {"name": "Боул с лососем", "price": 690, "desc": "Лосось, рис, чука", "photo": "https://picsum.photos/400/200?random=19"},
-            "i20": {"name": "Боул с креветкой", "price": 550, "desc": "Креветка, киноа, авокадо", "photo": "https://picsum.photos/400/200?random=20"}
+            "i18": {"name": "Боул с говядиной", "price": 590, "desc": "Рис, говядина, унаги", "icon": "🥩"},
+            "i19": {"name": "Боул с лососем", "price": 690, "desc": "Лосось, рис, чука", "icon": "🐟"},
+            "i20": {"name": "Боул с креветкой", "price": 550, "desc": "Креветка, киноа, авокадо", "icon": "🍤"}
         }
     },
     "c5": {
         "name": "🍔 Бургеры",
         "items": {
-            "i21": {"name": "Бургер индейка", "price": 650, "desc": "Индейка, бриошь, чеддер", "photo": "https://picsum.photos/400/200?random=21"},
-            "i22": {"name": "Бургер говядина", "price": 650, "desc": "Говядина, бриошь, барбекю", "photo": "https://picsum.photos/400/200?random=22"}
+            "i21": {"name": "Бургер индейка", "price": 650, "desc": "Индейка, бриошь, чеддер", "icon": "🍔"},
+            "i22": {"name": "Бургер говядина", "price": 650, "desc": "Говядина, бриошь, барбекю", "icon": "🍔"}
         }
     },
     "c6": {
         "name": "👶 Детское",
         "items": {
-            "i23": {"name": "Блинчики", "price": 220, "desc": "Со сгущенкой или сметаной", "photo": "https://picsum.photos/400/200?random=23"},
-            "i24": {"name": "Пельмени", "price": 310, "desc": "Цветные пельмени", "photo": "https://picsum.photos/400/200?random=24"}
+            "i23": {"name": "Блинчики", "price": 220, "desc": "Со сгущенкой или сметаной", "icon": "🥞"},
+            "i24": {"name": "Пельмени", "price": 310, "desc": "Цветные пельмени с курицей", "icon": "🥟"}
         }
     },
     "c7": {
         "name": "🍲 Супы",
         "items": {
-            "i25": {"name": "Окрошка", "price": 450, "desc": "На йогурте с курицей", "photo": "https://picsum.photos/400/200?random=25"}
+            "i25": {"name": "Окрошка", "price": 450, "desc": "На йогурте с курицей", "icon": "🥣"}
         }
     }
 };
@@ -105,7 +105,9 @@ function renderMenu(categoryKey) {
         const itemEl = document.createElement('div');
         itemEl.className = 'menu-item';
         itemEl.innerHTML = `
-            <img src="${item.photo}" alt="${item.name}" class="item-image" onerror="this.src='https://via.placeholder.com/400x200?text=No+Photo'">
+            <div class="item-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; font-size: 64px;">
+                ${item.icon}
+            </div>
             <div class="item-content">
                 <div class="item-name">${item.name}</div>
                 <div class="item-desc">${item.desc}</div>
@@ -136,7 +138,6 @@ function addToCart(categoryKey, itemKey) {
     updateCartCount();
     tg.HapticFeedback.impactOccurred('light');
     
-    // Анимация кнопки
     const btn = event.target;
     btn.textContent = '✓ Добавлено';
     setTimeout(() => {
@@ -224,7 +225,6 @@ function sendOrder() {
     
     orderText += `\n💰 **Итого: ${total}₽**`;
     
-    // Отправляем данные боту
     const data = {
         action: 'order',
         cart: cart,
@@ -233,11 +233,9 @@ function sendOrder() {
     
     tg.sendData(JSON.stringify(data));
     
-    // Показываем успех
     alert('✅ Заказ отправлен! Проверьте бота.');
     hideCart();
     
-    // Очищаем корзину
     cart = {};
     updateCartCount();
 }
