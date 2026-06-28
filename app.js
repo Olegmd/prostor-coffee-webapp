@@ -9,7 +9,7 @@ const MENU = {
         "icon": "🌅",
         "color": "#FF6B6B",
         "items": {
-            "i1": {"name": "Утренний бургер", "price": 580, "desc": "Бриошь, курица су-вид, цезарь, томаты, айсберг, пармезан, яйцо", "photo": "https://i.imgur.com/PLACEHOLDER1.jpg"},
+            "i1": {"name": "Утренний бургер", "price": 580, "desc": "Бриошь, курица су-вид, цезарь, томаты, айсберг, пармезан, яйцо", "photo": "https://i.imgur.com/Ydy37iC.jpeg"},
             "i2": {"name": "Сырники", "price": 480, "desc": "Со сметаной, солёной карамелью и сезонными ягодами", "photo": "https://i.imgur.com/PLACEHOLDER2.jpg"},
             "i3": {"name": "Гречка с яйцом пашот", "price": 465, "desc": "Фермерская гречка, авокадо, вяленые томаты, пармезан", "photo": "https://i.imgur.com/PLACEHOLDER3.jpg"},
             "i4": {"name": "Ленивые вареники", "price": 480, "desc": "С вишневым соусом и сметаной", "photo": "https://i.imgur.com/PLACEHOLDER4.jpg"},
