@@ -10,13 +10,13 @@ const MENU = {
         "color": "#FF6B6B",
         "items": {
             "i1": {"name": "Утренний бургер", "price": 580, "desc": "Бриошь, курица су-вид, цезарь, томаты, айсберг, пармезан, яйцо", "photo": "https://i.imgur.com/Ydy37iC.jpeg"},
-            "i2": {"name": "Сырники", "price": 480, "desc": "Со сметаной, солёной карамелью и сезонными ягодами", "photo": "https://i.imgur.com/PLACEHOLDER2.jpg"},
-            "i3": {"name": "Гречка с яйцом пашот", "price": 465, "desc": "Фермерская гречка, авокадо, вяленые томаты, пармезан", "photo": "https://i.imgur.com/PLACEHOLDER3.jpg"},
-            "i4": {"name": "Ленивые вареники", "price": 480, "desc": "С вишневым соусом и сметаной", "photo": "https://i.imgur.com/PLACEHOLDER4.jpg"},
-            "i5": {"name": "Смузи-боул", "price": 490, "desc": "Голубика, банан, кокосовое молоко, фисташка, чиа", "photo": "https://i.imgur.com/PLACEHOLDER5.jpg"},
-            "i6": {"name": "Завтрак из 2-х яиц", "price": 385, "desc": "Скрэмбл, омлет или глазунья с салатом и тостом", "photo": "https://i.imgur.com/PLACEHOLDER6.jpg"},
-            "i7": {"name": "Круассан с курицей", "price": 600, "desc": "Круассан, курица су-вид, айсберг, помидор, пармезан", "photo": "https://i.imgur.com/PLACEHOLDER7.jpg"},
-            "i8": {"name": "Овсяная каша", "price": 380, "desc": "С бананом и солёной карамелью на альтернативном молоке", "photo": "https://i.imgur.com/PLACEHOLDER8.jpg"}
+            "i2": {"name": "Сырники", "price": 480, "desc": "Со сметаной, солёной карамелью и сезонными ягодами", "photo": "https://imgur.com/rOxY3JB"},
+            "i3": {"name": "Гречка с яйцом пашот", "price": 465, "desc": "Фермерская гречка, авокадо, вяленые томаты, пармезан", "photo": "https://i.imgur.com/r1KBrgV.jpeg"},
+            "i4": {"name": "Ленивые вареники", "price": 480, "desc": "С вишневым соусом и сметаной", "photo": "https://i.imgur.com/XZ5ni0a.jpeg"},
+            "i5": {"name": "Смузи-боул", "price": 490, "desc": "Голубика, банан, кокосовое молоко, фисташка, чиа", "photo": "https://i.imgur.com/hgkcwBv.jpeg"},
+            "i6": {"name": "Завтрак из 2-х яиц", "price": 385, "desc": "Скрэмбл, омлет или глазунья с салатом и тостом", "photo": "https://i.imgur.com/BF74mcO.jpeg"},
+            "i7": {"name": "Круассан с курицей", "price": 600, "desc": "Круассан, курица су-вид, айсберг, помидор, пармезан", "photo": "https://i.imgur.com/5gxavcZ.jpeg"},
+            "i8": {"name": "Овсяная каша", "price": 380, "desc": "С бананом и солёной карамелью на альтернативном молоке", "photo": "https://i.imgur.com/N7cwK0r.jpeg"}
         }
     },
     "c2": {
